@@ -321,3 +321,30 @@ def test_from_multiview_files():
     assert isinstance(multi_view_ds, xr.Dataset)
     assert "view" in multi_view_ds.dims
     assert multi_view_ds.view.values.tolist() == view_names
+
+
+def test_ds_from_nwb_object_no_confidence():
+    """Test loading poses from an NWBFile object that lacks confidence data."""
+    from unittest.mock import MagicMock
+
+    import numpy as np
+
+    from movement.io.load_poses import _ds_from_nwb_object
+
+    mock_nwb = MagicMock()
+    mock_nwb.identifier = "subj1"
+
+    mock_pes = MagicMock()
+    mock_pes.data = np.zeros((10, 2))
+    mock_pes.timestamps = np.arange(10) / 30.0
+    del mock_pes.confidence
+    mock_pes.rate = None
+
+    mock_pe = MagicMock()
+    mock_pe.source_software = "mock_software"
+    mock_pe.pose_estimation_series = {"mock_kp": mock_pes}
+
+    mock_nwb.processing = {"behavior": {"PoseEstimation": mock_pe}}
+
+    ds = _ds_from_nwb_object(mock_nwb)
+    assert np.isnan(ds.confidence.values).all()
