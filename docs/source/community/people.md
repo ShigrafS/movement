@@ -232,10 +232,33 @@ This is automatically updated via GitHub Actions and should not be modified.
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/roaldarbol">
+                    <img src="https://avatars.githubusercontent.com/u/25629697?v=4" width="100;" alt="roaldarbol"/>
+                    <br />
+                    <sub><b>Mikkel Roald-Arbøl</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/M0hammed-Reda">
+                    <img src="https://avatars.githubusercontent.com/u/174648255?v=4" width="100;" alt="M0hammed-Reda"/>
+                    <br />
+                    <sub><b>Mohamed Reda</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/ParthChatupale">
                     <img src="https://avatars.githubusercontent.com/u/175731228?v=4" width="100;" alt="ParthChatupale"/>
                     <br />
                     <sub><b>ParthChatupale</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/isha822">
+                    <img src="https://avatars.githubusercontent.com/u/212369081?v=4" width="100;" alt="isha822"/>
+                    <br />
+                    <sub><b>Sanjana soni</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -245,8 +268,6 @@ This is automatically updated via GitHub Actions and should not be modified.
                     <sub><b>Shreecharana N</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/Sparshr04">
                     <img src="https://avatars.githubusercontent.com/u/154352929?v=4" width="100;" alt="Sparshr04"/>
@@ -268,6 +289,8 @@ This is automatically updated via GitHub Actions and should not be modified.
                     <sub><b>Yaroslav Halchenko</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/angkul07">
                     <img src="https://avatars.githubusercontent.com/u/129066458?v=4" width="100;" alt="angkul07"/>
@@ -289,8 +312,6 @@ This is automatically updated via GitHub Actions and should not be modified.
                     <sub><b>ishan372or</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/ivanvrlg">
                     <img src="https://avatars.githubusercontent.com/u/131998802?v=4" width="100;" alt="ivanvrlg"/>
